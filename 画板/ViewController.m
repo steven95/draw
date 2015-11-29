@@ -7,12 +7,19 @@
 //
 
 #import "ViewController.h"
-
+#import "dbView.h"
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet dbView *dbView;
 @end
 
 @implementation ViewController
+- (IBAction)colorChange:(UIButton*)sender {
+    self.dbView.color = sender.backgroundColor;
+    
+}
+- (IBAction)voluechange:(UISlider *)sender {
+    self.dbView.lineWidth = sender.value;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -15,6 +15,8 @@
 		9EE9578C1C0899410020AA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE9578A1C0899410020AA36 /* LaunchScreen.storyboard */; };
 		9EE957971C0899420020AA36 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE957961C0899420020AA36 /* __Tests.m */; };
 		9EE957A21C0899420020AA36 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE957A11C0899420020AA36 /* __UITests.m */; };
+		9EE957B11C08A1000020AA36 /* dbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE957B01C08A1000020AA36 /* dbView.m */; };
+		9EE957B41C08B84D0020AA36 /* DrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE957B31C08B84D0020AA36 /* DrawPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9EE9579D1C0899420020AA36 /* 画板UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画板UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE957A11C0899420020AA36 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		9EE957A31C0899420020AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE957AF1C08A1000020AA36 /* dbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbView.h; sourceTree = "<group>"; };
+		9EE957B01C08A1000020AA36 /* dbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbView.m; sourceTree = "<group>"; };
+		9EE957B21C08B84D0020AA36 /* DrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPath.h; sourceTree = "<group>"; };
+		9EE957B31C08B84D0020AA36 /* DrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				9EE957821C0899410020AA36 /* ViewController.h */,
 				9EE957831C0899410020AA36 /* ViewController.m */,
 				9EE957851C0899410020AA36 /* Main.storyboard */,
+				9EE957AF1C08A1000020AA36 /* dbView.h */,
+				9EE957B01C08A1000020AA36 /* dbView.m */,
+				9EE957B21C08B84D0020AA36 /* DrawPath.h */,
+				9EE957B31C08B84D0020AA36 /* DrawPath.m */,
 				9EE957881C0899410020AA36 /* Assets.xcassets */,
 				9EE9578A1C0899410020AA36 /* LaunchScreen.storyboard */,
 				9EE9578D1C0899410020AA36 /* Info.plist */,
@@ -273,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE957B11C08A1000020AA36 /* dbView.m in Sources */,
 				9EE957841C0899410020AA36 /* ViewController.m in Sources */,
 				9EE957811C0899410020AA36 /* AppDelegate.m in Sources */,
 				9EE9577E1C0899410020AA36 /* main.m in Sources */,
+				9EE957B41C08B84D0020AA36 /* DrawPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +513,7 @@
 				9EE957A81C0899420020AA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EE957A91C0899420020AA36 /* Build configuration list for PBXNativeTarget "画板Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +522,7 @@
 				9EE957AB1C0899420020AA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EE957AC1C0899420020AA36 /* Build configuration list for PBXNativeTarget "画板UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +531,7 @@
 				9EE957AE1C0899420020AA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
